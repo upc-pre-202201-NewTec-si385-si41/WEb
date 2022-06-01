@@ -1,0 +1,145 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: rgb(24,157,177);
+}
+img{
+    float:left;
+    margin-top:10px;
+    margin-left:15px;
+}
+form{
+    float:left;
+    margin:5px;
+}
+ul{
+    list-style-type: none;
+    margin-top:15px;
+    padding:0;
+    overflow:hidden;
+}
+li{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    float:left;
+    padding: 16px 72px;
+    background-color:white;
+}
+li a{
+    display:block;
+    color:black;
+    padding: 16px 70px;
+    text-align:center;
+    text-decoration:none;
+}
+li a:hover{
+    background-color: cadetblue;
+    color:white;
+}
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+
+
+section{
+    float:left;
+    width:70%;
+}
+article{
+    padding: 30px;
+    margin: 30px;
+    border-color:rgb(57,57,57);
+    background-color:rgb(57,57,57);
+    color:white;
+}
+aside::after{
+    content:"";
+    float:right;
+    display:table;
+    clear:both;
+    width:25%;
+    padding:20px;
+}
+aside button{
+    margin:20px;
+    alignment: center;
+}
+button{
+    font-size: 18px;
+    background-color: darkblue;
+    border-color:darkblue;
+    padding: 10px 60px;
+    border-radius:50px;
+    color:white;
+    text-align:center;
+}
+button:hover{
+    cursor: pointer;
+    background-color: darkblue;
+    border-color:darkblue;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,1);
+}
+.ProductLogo{
+    width: 140px;
+    height: 124px;
+    position: absolute;
+    background-size: cover;
+
+}
+.Perfil {
+    width: 133px;
+    height: 124px;
+    position: absolute;
+    right: 50px;
+    background-size: cover;
+}
+.Viruela{
+    width: 270px;
+    height: 184px;
+    position: relative;
+    right: 20px;
+    bottom: 20px;   
+    background-image: url(Imagenes/viruela_del_mono.png);
+    background-size: cover;
+}
+.Vacunacion{
+    width: 240px;
+    height: 174px;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    background-image: url(Imagenes/vacunacion.jpg);
+    background-size: cover;
+}
+h1.Ingreso{
+    font-size: 30px;
+}
+
+.Ingreso{
+    margin:0;
+    color: white;
+    right: 200px;
+    position: relative;
+}
+.search {
+    position: relative;
+    padding: 48px 200px;
+}
+.search input {
+    width: 789px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #222;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}

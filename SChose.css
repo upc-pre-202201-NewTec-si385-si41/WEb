@@ -1,0 +1,49 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: rgb(24,160,180);
+    color: white;
+    margin: 0;
+}
+.titulado {
+    text-align: center;
+    font-size: larger;
+    width: 100%;
+    position: relative;
+    padding: 2rem 0 0 0;
+    background-color: rgb(24,160,180);
+}
+.Contenedor {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding: 4.5rem 0;
+    background-color: rgb(24,160,180);
+}
+.Bloque1, .Bloque2 {
+    text-align: center;
+    background-color: rgb(48,48,48);
+    width: 350px;
+    height: 300px;
+    margin: 10px 9.5rem;
+    border-color: black;
+    border-radius: 50px;
+    border-style: solid;
+    color: white;
+    text-decoration: none;
+}
+.Bloque1 {
+    float: left;
+}
+.Bloque2 {
+    float: right;
+}
+.Doctor {
+    padding: 20px 0 0 0;
+    width: 220px;
+}
+.Paciente {
+    padding: 20px 0 0 0;
+    width: 220px;
+}
